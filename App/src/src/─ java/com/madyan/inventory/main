@@ -1,0 +1,19 @@
+java/com/madyan/inventory/
+│
+├── db/                # إدارة قاعدة البيانات
+│   └── DBHelper.java
+│
+├── models/            # الكائنات (Entities)
+│   ├── Product.java
+│   ├── Warehouse.java
+│   ├── InventoryCheck.java
+│   └── InventoryDetail.java
+│
+├── ui/                # واجهات المستخدم
+│   ├── LoginActivity.java
+│   ├── DashboardActivity.java
+│   ├── ProductActivity.java
+│   ├── WarehouseActivity.java
+│   └── InventoryActivity.java
+│
+└── utils/             # أدوات
