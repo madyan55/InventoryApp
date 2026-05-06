@@ -1,0 +1,6 @@
+src/
+│   │   ├── main/
+│   │   │   ├── java/com/madyan/inventory/   # الكود البرمجي
+│   │   │   │   ├── db/                      # قاعدة البيانات (DBHelper, Models)
+│   │   │   │   ├── ui/                      # واجهات المستخدم (Activities, Fragments)
+│   │   │   │   ├── utils/                   # أدوات مساعدة (Helpers
