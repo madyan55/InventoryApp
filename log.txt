@@ -1,0 +1,16 @@
+===== FarPoint Technologies, Inc =====
+===== Begin of Excel Workbook General Load =====
+4/22/2026 - 21:29
+
+Col	Row	Information
+___	___	___________
+		Import Excel File: C:\Users\Elite\Desktop\  .xls
+
+===== End of Excel Workbook General Load =====
+
+===== Begin of Excel Sheet Load =====
+		Import Sheet:  -1
+-	-	102:Excel reads the AllowDragDrop, AutoClipboard, and EditEnterAction properties from the registry. If you modify these properties in Spread, the changes are not saved at export.
+
+===== End of Excel Sheet Load =====
+===== FarPoint Technologies, Inc =====
