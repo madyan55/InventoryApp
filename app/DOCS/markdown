@@ -1,0 +1,63 @@
+# هيكل المشروع (Project Structure)
+
+هذا الملف يوضح البنية الكاملة لمجلدات وملفات مشروع **Madyan Inventory ERP** بشكل هرمي.
+
+---
+
+## 📂 الجذر (Root)
+app/
+├── src/
+│    ├── main/
+│    │    ├── java/com/madyan/inventory/
+│    │    │    ├── ui/
+│    │    │    │    ├── LoginActivity.java
+│    │    │    │    ├── DashboardActivity.java
+│    │    │    │    ├── ProductActivity.java
+│    │    │    │    ├── WarehouseActivity.java
+│    │    │    │    ├── InventoryActivity.java
+│    │    │    │    └── ReportsActivity.java
+│    │    │    └── models/
+│    │    │         ├── Product.java
+│    │    │         ├── Warehouse.java
+│    │    │         ├── InventoryCheck.java
+│    │    │         └── InventoryDetail.java
+│    │    ├── res/
+│    │    │    ├── layout/
+│    │    │    │    ├── activity_login.xml
+│    │    │    │    ├── activity_dashboard.xml
+│    │    │    │    ├── activity_product.xml
+│    │    │    │    ├── activity_warehouse.xml
+│    │    │    │    ├── activity_inventory.xml
+│    │    │    │    └── activity_reports.xml
+│    │    │    ├── drawable/
+│    │    │    │    ├── icons/
+│    │    │    │    │    ├── ic_user.png
+│    │    │    │    │    ├── ic_lock.png
+│    │    │    │    │    ├── ic_add.png
+│    │    │    │    │    └── ic_report.png
+│    │    │    │    └── background.xml
+│    │    │    └── values/
+│    │    │         ├── colors.xml
+│    │    │         └── styles.xml
+│    │    └── AndroidManifest.xml
+│    └── test/
+│         └── UnitTests.java
+└── DOCS/
+├── README.md
+├── ProjectStructure.md
+├── ERD.png
+├── UserGuide.pdf
+├── API_Documentation.md
+└── TrainingMaterials/
+├── intro_ar.pdf
+├── intro_en.pdf
+└── exercises/
+
+---
+
+## 🟨 النتيجة
+هذا الملف يعطي صورة واضحة وشاملة عن **بنية المشروع**، مما يسهل على أي مطور أو مستخدم فهم أماكن الملفات والوظائف المرتبطة بها.
+
+---
+
+هل ترغب أن أجهز لك الآن **ملف API_Documentation.md** لتوثيق واجهات الـ API (إن وجدت) مع أمثلة للطلبات والاستجابات؟
