@@ -1,0 +1,37 @@
+<resources>
+    <!-- Login -->
+    <string name="app_name">نظام مدين لإدارة المخازن</string>
+    <string name="login">تسجيل الدخول</string>
+    <string name="username">اسم المستخدم</string>
+    <string name="password">كلمة المرور</string>
+    <string name="welcome">مرحباً %1$s 👋 أهلاً بك</string>
+
+    <!-- Dashboard -->
+    <string name="dashboard">لوحة التحكم</string>
+    <string name="products">المنتجات</string>
+    <string name="warehouses">المخازن</string>
+    <string name="inventory">الجرد</string>
+    <string name="reports">التقارير</string>
+
+    <!-- ProductActivity -->
+    <string name="add_product">إضافة منتج</string>
+    <string name="edit_product">تعديل منتج</string>
+    <string name="delete_product">حذف منتج</string>
+
+    <!-- WarehouseActivity -->
+    <string name="add_warehouse">إضافة مخزن</string>
+    <string name="edit_warehouse">تعديل مخزن</string>
+    <string name="delete_warehouse">حذف مخزن</string>
+
+    <!-- InventoryActivity -->
+    <string name="system_qty">الكمية بالنظام</string>
+    <string name="actual_qty">الكمية الفعلية</string>
+    <string name="difference">الفرق</string>
+    <string name="save_inventory">حفظ العملية</string>
+    <string name="calculate_difference">حساب الفرق</string>
+
+    <!-- ReportsActivity -->
+    <string name="view_report">عرض التقرير</string>
+    <string name="export_pdf">تصدير PDF</string>
+    <string name="export_excel">تصدير Excel</string>
+</resources>
