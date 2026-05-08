@@ -1,0 +1,6 @@
+app/
+ └── src/
+      └── main/
+           └── res/
+                └── drawable/
+                     ├── icons/        ← أيقونات PNG أو SVG
