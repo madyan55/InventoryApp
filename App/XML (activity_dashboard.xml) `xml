@@ -1,0 +1,40 @@
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="2"
+    android:rowCount="2"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/productsButton"
+        android:text="@string/products"
+        android:drawableTop="@drawable/ic_products"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"/>
+
+    <Button
+        android:id="@+id/warehousesButton"
+        android:text="@string/warehouses"
+        android:drawableTop="@drawable/ic_warehouse"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"/>
+
+    <Button
+        android:id="@+id/inventoryButton"
+        android:text="@string/inventory"
+        android:drawableTop="@drawable/ic_inventory"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"/>
+
+    <Button
+        android:id="@+id/reportsButton"
+        android:text="@string/reports"
+        android:drawableTop="@drawable/ic_reports"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"/>
+</GridLayout>
