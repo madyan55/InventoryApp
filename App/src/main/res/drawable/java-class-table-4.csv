@@ -1,0 +1,5 @@
+﻿ملف الكائن (Java Class),الجدول في قاعدة البيانات (Table),الحقول الأساسية (Fields),العلاقة (Relation)
+Product.java,Products,"id, name, quantity, price",يرتبط بـ InventoryDetail (واحد لمتعدد)
+Warehouse.java,Warehouses,"id, name",يرتبط بـ InventoryCheck (واحد لمتعدد)
+InventoryCheck.java,InventoryChecks,"id, date, warehouseId",يرتبط بـ Warehouse (متعدد لواحد) ويرتبط بـ InventoryDetail (واحد لمتعدد)
+InventoryDetail.java,InventoryDetails,"id, checkId, productId, systemQty, actualQty, difference",يرتبط بـ InventoryCheck و Product (متعدد لواحد)

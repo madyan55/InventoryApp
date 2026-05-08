@@ -1,0 +1,6 @@
+﻿الجزء,الوظيفة
+SQLiteOpenHelper,فئة تساعد في إنشاء قاعدة البيانات وترقيتها تلقائيًا
+DATABASE_NAME,اسم قاعدة البيانات (inventory.db)
+onCreate(),ينشئ الجداول عند أول تشغيل للتطبيق
+onUpgrade(),يعيد إنشاء الجداول عند تحديث قاعدة البيانات
+الجداول الأربعة,Products – Warehouses – InventoryChecks – InventoryDetails

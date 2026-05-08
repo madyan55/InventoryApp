@@ -1,0 +1,7 @@
+﻿ملف الواجهة (XML),الشاشة المرتبطة (Activity),العناصر الأساسية,الوظيفة داخل التطبيق
+activity_login.xml,LoginActivity,EditText (اسم المستخدم، كلمة المرور)، Button (تسجيل الدخول),شاشة البداية للتحقق من بيانات الدخول
+activity_dashboard.xml,DashboardActivity,Buttons (منتجات، مخازن، جرد، تقارير، خروج),لوحة التحكم الرئيسية للتنقل بين الوحدات
+activity_product.xml,ProductActivity,RecyclerView (قائمة المنتجات)، FloatingActionButton (إضافة منتج),إدارة المنتجات (عرض/إضافة)
+activity_warehouse.xml,WarehouseActivity,RecyclerView (قائمة المخازن)، FloatingActionButton (إضافة مخزن),إدارة المخازن (عرض/إضافة)
+activity_inventory.xml,InventoryActivity,Spinner (اختيار المخزن)، RecyclerView (قائمة المنتجات)، Buttons (حساب الفرق، حفظ العملية),تنفيذ عملية الجرد وحساب الفروقات
+activity_reports.xml,ReportsActivity,RecyclerView (قائمة العمليات السابقة)، Button (تصدير التقرير),مراجعة عمليات الجرد السابقة وتوليد تقارير
