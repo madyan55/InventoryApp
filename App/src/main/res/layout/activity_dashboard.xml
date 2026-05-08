@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:padding="24dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <!-- 🔹 زر إدارة المنتجات -->
+        <Button
+            android:id="@+id/btnProducts"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="إدارة المنتجات"
+            android:backgroundTint="@color/teal_700"
+            android:textColor="@android:color/white"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- 🔹 زر إدارة المخازن -->
+        <Button
+            android:id="@+id/btnWarehouses"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="إدارة المخازن"
+            android:backgroundTint="@color/teal_700"
+            android:textColor="@android:color/white"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- 🔹 زر تنفيذ الجرد -->
+        <Button
+            android:id="@+id/btnInventory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="تنفيذ الجرد"
+            android:backgroundTint="@color/teal_700"
+            android:textColor="@android:color/white"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- 🔹 زر عرض التقارير -->
+        <Button
+            android:id="@+id/btnReports"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="عرض التقارير"
+            android:backgroundTint="@color/teal_700"
+            android:textColor="@android:color/white"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- 🔹 زر تسجيل الخروج -->
+        <Button
+            android:id="@+id/btnLogout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="تسجيل الخروج"
+            android:backgroundTint="@color/red"
+            android:textColor="@android:color/white"/>
+    </LinearLayout>
+</ScrollView>
