@@ -1,0 +1,5 @@
+﻿الكائن (Model Class),الاختبارات المغطاة,الوظيفة التي تم اختبارها,الحالة
+Product,testProductCreation(),"التحقق من إنشاء المنتج بشكل صحيح (id, name, quantity, price)",✅ مغطى
+Warehouse,testWarehouseCreation(),"التحقق من إنشاء المخزن بشكل صحيح (id, name)",✅ مغطى
+InventoryCheck,testInventoryCheckCreation(),"التحقق من إنشاء عملية الجرد (id, date, warehouseId)",✅ مغطى
+InventoryDetail,testInventoryDetailDifference(),"التحقق من حساب الفرق بين الكمية بالنظام والكمية الفعلية (systemQty, actualQty, difference)",✅ مغطى
