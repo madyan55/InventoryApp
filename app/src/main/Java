@@ -1,6 +1,0 @@
-InventoryApp/
-│
-├── app/                  # كود التطبيق
-│   ├── src/
-│   │   ├── main/
-│   │   │   ├── java/com/madyan/inventory/   # الكود البرمج             # نسخة مختصرة للصفحة الرئيسية
