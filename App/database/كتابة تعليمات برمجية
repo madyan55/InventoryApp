@@ -1,0 +1,4 @@
+app/
+ └── database/
+      ├── schema.sql
+      └── seed.sql
