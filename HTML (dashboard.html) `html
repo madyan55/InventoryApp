@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title>لوحة التحكم - نظام مدين ERP</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>لوحة التحكم</h1>
+  </header>
+
+  <main class="grid">
+    <div class="card" onclick="openPage('products.html')">
+      🛍️ <p>المنتجات</p>
+    </div>
+    <div class="card" onclick="openPage('warehouses.html')">
+      🏢 <p>المخازن</p>
+    </div>
+    <div class="card" onclick="openPage('inventory.html')">
+      📦 <p>الجرد</p>
+    </div>
+    <div class="card" onclick="openPage('reports.html')">
+      📊 <p>التقارير</p>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
