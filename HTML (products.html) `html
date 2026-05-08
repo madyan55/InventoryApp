@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title>المنتجات - نظام مدين ERP</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>إدارة المنتجات</h1>
+  </header>
+
+  <main>
+    <table>
+      <thead>
+        <tr>
+          <th>اسم المنتج</th>
+          <th>الكمية</th>
+          <th>السعر</th>
+          <th>إجراءات</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>قماش فاخر</td>
+          <td>50</td>
+          <td>120.0</td>
+          <td>
+            <button onclick="editProduct()">✏️ تعديل</button>
+            <button onclick="deleteProduct()">🗑️ حذف</button>
+          </td>
+        </tr>
+        <tr>
+          <td>خيط قطني</td>
+          <td>200</td>
+          <td>15.0</td>
+          <td>
+            <button onclick="editProduct()">✏️ تعديل</button>
+            <button onclick="deleteProduct()">🗑️ حذف</button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <button class="add-btn" onclick="addProduct()">➕ إضافة منتج جديد</button>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
