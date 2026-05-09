@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+    <!-- 🔹 إعدادات عامة -->
+    <appName>Madyan ERP</appName>
+    <defaultLanguage>ar</defaultLanguage>
+    <supportedLanguages>ar,en</supportedLanguages>
+
+    <!-- 🔹 إعدادات السيرفر -->
+    <apiBaseUrl>http://localhost:8080/api</apiBaseUrl>
+    <databaseName>inventory_db</databaseName>
+
+    <!-- 🔹 إعدادات الواجهة -->
+    <theme>default</theme>
+    <font>Arial Arabic</font>
+</config>
