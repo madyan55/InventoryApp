@@ -1,0 +1,37 @@
+<resources>
+    <!-- Login -->
+    <string name="app_name">Madyan ERP</string>
+    <string name="login">Login</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="welcome">Welcome %1$s 👋</string>
+
+    <!-- Dashboard -->
+    <string name="dashboard">Dashboard</string>
+    <string name="products">Products</string>
+    <string name="warehouses">Warehouses</string>
+    <string name="inventory">Inventory</string>
+    <string name="reports">Reports</string>
+
+    <!-- ProductActivity -->
+    <string name="add_product">Add Product</string>
+    <string name="edit_product">Edit Product</string>
+    <string name="delete_product">Delete Product</string>
+
+    <!-- WarehouseActivity -->
+    <string name="add_warehouse">Add Warehouse</string>
+    <string name="edit_warehouse">Edit Warehouse</string>
+    <string name="delete_warehouse">Delete Warehouse</string>
+
+    <!-- InventoryActivity -->
+    <string name="system_qty">System Quantity</string>
+    <string name="actual_qty">Actual Quantity</string>
+    <string name="difference">Difference</string>
+    <string name="save_inventory">Save Inventory</string>
+    <string name="calculate_difference">Calculate Difference</string>
+
+    <!-- ReportsActivity -->
+    <string name="view_report">View Report</string>
+    <string name="export_pdf">Export PDF</string>
+    <string name="export_excel">Export Excel</string>
+</resources>
