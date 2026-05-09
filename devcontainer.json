@@ -1,0 +1,22 @@
+{
+  "name": "InventoryApp Dev Container",
+  "image": "mcr.microsoft.com/devcontainers/java:17",
+  "features": {
+    "ghcr.io/devcontainers/features/gradle:1": {
+      "version": "7.6"
+    },
+    "ghcr.io/devcontainers/features/android-sdk:1": {
+      "version": "33.0.2"
+    }
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "vscjava.vscode-java-pack",
+        "ms-vscode.gradle",
+        "ms-vscode.android"
+      ]
+    }
+  },
+  "postCreateCommand": "gradle build"
+}
