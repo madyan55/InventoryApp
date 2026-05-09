@@ -1,0 +1,21 @@
+InventoryApp_Config/
+│
+├── android/
+│   ├── AndroidManifest.xml
+│   ├── res/
+│   │   ├── values/strings.xml
+│   │   └── xml/config.xml
+│   └── README-Android.md
+│
+├── web/
+│   ├── index.html        ← (لوحة التحكم Dashboard)
+│   ├── products.html     ← صفحة المنتجات
+│   ├── warehouses.html   ← صفحة المخازن
+│   ├── inventory.html    ← صفحة الجرد
+│   ├── reports.html      ← صفحة التقارير
+│   ├── style.css
+│   ├── script.js
+│   ├── config.json
+│   └── README-Web.md
+│
+└── README.md   ← ملف رئيسي يشرح طريقة التشغيل بالعربية والإنجليزية
